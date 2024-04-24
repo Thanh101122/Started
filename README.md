@@ -2,7 +2,7 @@
 # Điều kiện 
 + HTMl
 + CSS
-+ JavaScript
++ TypeScript
 
 #  setup
 + npm install -g @angular/cli : để được cài đặt Angular
