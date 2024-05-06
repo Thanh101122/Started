@@ -61,3 +61,7 @@
     - ngOnInit(): để lấy thông tin về sản phẩm dựa trên productId từ route hiện tại và gán cho thuộc tính product của component.
 
     - @Injectable({ providedIn: 'root' }): Decorator @Injectable() được sử dụng để gắn kết metadata với service
+
+    - Để cung cấp HttpClient trong một ứng dụng độc lập, chúng ta có thể thực hiện việc này trong tệp app.config.ts 
+        import { provideClientHydration } from '@angular/platform-browser';
+        import {provideHttpClient} from '@angular/common/http';
